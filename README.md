@@ -1,13 +1,19 @@
 # HTML em casa
-<h1>Bookway</h1>
-    <p>Este é o Bookway, uma nova forma de <abbr title="citação">entrar</abbr> no universo da literatura</p>
-    <p>Sede do BookWay<address>Rua 0, cep 30296-010, numero 2</address></p>
-    <p>A obra de Leonardo <cite>Titanic</cite> ele disse <q>Eu te amo rose</q></p>
-    <p><bdo dir="rtl">
-        vini
-    </bdo></p>
-    <p><bdo dir="ltr">
-        vini
-    </bdo></p>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        <i>Teste</i>
+    </h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, dolore.
+    <br> Ipsa nisi quibusdam nam at id dolor error tenetur et nemo unde magnam, beatae eligendi quidem corrupti dolorem. Possimus, molestias.</p>
+    <a href="index.html">voltar</a>
+</body>
+</html>
 
 feito no senai
