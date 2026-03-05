@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Formulario aqui</h1>
+
+    <p>Enquete</p>
+    <form>
+        <label for="campo-nome">nome:</label>
+        <input id="campo-nome"type="text" placeholder="digite seu nome" required>
+
+        <br>
+        <br>
+
+        <label for="campo-senha">senha:</label>
+        <input id="campo-senha" type="password" placeholder="digite sua senha" required>
+
+        <br>
+        <br>
+
+        <label for="campo-email">email:</label>
+        <input id="campo-email" type="email" placeholder="digite seu email" required> 
+
+        <br>
+        <br>
+
+        <p><b>Tem animal(ais)</b></p>
+        
+        <input id="campo-sim" type="radio" name="animal" value="sim">
+        <label for="campo-sim">sim</label>
+        <br>
+        <input id="campo-nao" type="radio" name="animal" value="não">
+        <label for="campo-nao">não</label>
+
+        <br>
+        <br>
+
+        <p><b>Check box teste</b></p>
+
+        <input id="1" type="checkbox" name="1" value="12">
+        <label for="1">awsd</label>
+        <br> 
+        <input id="2" type="checkbox" name="2" value="23">
+        <label for="2">awsdz</label>
+        <br>
+        <input id="3" type="checkbox" name="3" value="44">
+        <label for="3">awsdzx</label>
+        <br>
+        <input id="4" type="checkbox" name="4" value="150">
+        <label for="4">awsdzxc</label>
+
+        <br>
+        <br>
+
+        <p><b>select teste</b></p>
+
+        <select name="cores">
+            <option selected disabled value=" ">Escolha uma cor</option>
+            <option value="vermelho">vermelho</option>
+            <option value="azul">Azul</option>
+            <option value="amarelo">amarelo</option>
+            <option value="verde">verde</option>
+            <option value="roxo">roxo</option>
+        </select>
+
+        <br>
+        <br>
+        <br>
+
+        <p><b>Digite seu comentario</b></p>
+
+        <textarea rows="15" cols="45" placeholder="Digite aqui" name="comentario"></textarea>
+
+        <br>
+        <br>
+
+        <input type="submit" value="enviar formulario">
+        
+    </form>
+    <br>
+
+    <a href="index.html">voltar</a>
+
+</body>
+</html>
